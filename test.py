@@ -23,7 +23,7 @@ while play == True :
                 
     
     print(f" the answer was {secret_number}")
-    play_again = input("wanna play again? " )
+    play_again = input("wanna play again: " )
     if play_again.lower() == "yes" :
         play = True
         a = []
